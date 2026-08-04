@@ -3,6 +3,7 @@
 R code supporting the manuscript:
 
 > **Exploring a drying-grinding system for pulverized sewage sludge production**
+> 
 > Ayumi Schober, Andrea Narvaez Torres, Juan Pablo Segovia-Gutiérrez, Nelson de Oliveira Quesado Filho, Lukas Thomae-Pohl, Matthias Rapf, Florian Drunsel, Natalie Germann
 
 ## Abstract
