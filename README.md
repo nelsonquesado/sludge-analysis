@@ -41,9 +41,9 @@ Pull-off force is converted to its absolute magnitude so that larger values repr
 
 ## Scripts
 
-* [`1. dewatering.process.R`](1.%20dewatering.process.R) analyses organic composition, inorganic composition, and initial sludge properties.
-* [`2. drying.process.R`](2.%20drying.process.R) analyses rheological and tack-test properties, final product attributes, and their regression relationships.
-* [`3. dag.R`](3.%20dag.R) estimates the exploratory structural equation model linking sludge composition, initial properties, pull-off force, and drying-grinding outcomes.
+* [`1. dewatering.process.R`](R/1.%20dewatering.process.R) analyses organic composition, inorganic composition, and initial sludge properties.
+* [`2. drying.process.R`](R/2.%20drying.process.R) analyses rheological and tack-test properties, final product attributes, and their regression relationships.
+* [`3. dag.R`](R/3.%20dag.R) estimates the exploratory structural equation model linking sludge composition, initial properties, pull-off force, and drying-grinding outcomes.
 
 Some alternative model specifications are retained as commented code to document the model-development process and estimation limitations.
 
@@ -73,7 +73,7 @@ Install the required packages before running the scripts.
 Place the input workbook in the expected data directory and update its filename in the scripts when necessary. The current scripts reference:
 
 ```text
-20260609_Data_Sensitivity.xlsx
+data/20260609_Data_Sensitivity.xlsx
 ```
 
 Open each script in RStudio and run them in numerical order:
