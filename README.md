@@ -4,6 +4,10 @@ R code supporting the manuscript:
 
 > **Exploring a drying-grinding system for pulverized sewage sludge production**
 
+## Browse the code
+
+The complete R source code is available in the [GitHub repository](https://github.com/USERNAME/REPOSITORY).
+
 ## Overview
 
 This repository contains the exploratory statistical analyses used to investigate relationships between sewage-sludge properties and the performance of a pilot-scale thin-film drying-grinding process.
@@ -35,9 +39,9 @@ Pull-off force is converted to its absolute magnitude so that larger values repr
 
 ## Scripts
 
-* `1. dewatering.process.R` analyses organic composition, inorganic composition, and initial sludge properties.
-* `2. drying.process.R` analyses rheological and tack-test properties, final product attributes, and their regression relationships.
-* `3. dag.R` estimates the exploratory structural equation model linking sludge composition, initial properties, pull-off force, and drying-grinding outcomes.
+* [`1. dewatering.process.R`](1.%20dewatering.process.R) analyses organic composition, inorganic composition, and initial sludge properties.
+* [`2. drying.process.R`](2.%20drying.process.R) analyses rheological and tack-test properties, final product attributes, and their regression relationships.
+* [`3. dag.R`](3.%20dag.R) estimates the exploratory structural equation model linking sludge composition, initial properties, pull-off force, and drying-grinding outcomes.
 
 Some alternative model specifications are retained as commented code to document the model-development process and estimation limitations.
 
