@@ -6,14 +6,9 @@ R code supporting the manuscript:
 > 
 > Ayumi Schober, Andrea Narvaez Torres, Juan Pablo Segovia-Gutiérrez, Nelson de Oliveira Quesado Filho, Lukas Thomae-Pohl, Matthias Rapf, Florian Drunsel, Natalie Germann
 
-## Abstract
-
-Pulverized sewage sludge (PSS) is required for emerging thermochemical phosphorus-recovery routes, but its production in integrated drying-grinding systems is limited by sludge agglomeration, adhesion, and resistance to fragmentation during drying. Understanding how sludge attributes contribute to final product quality is therefore essential for designing drying-grinding systems that can process heterogeneous sewage sludge streams. Four municipal sewage sludges were processed in a pilot-scale thin-film dryer, and an exploratory statistical workflow was applied to a dataset of 24 observations, combining system mapping, Spearman correlation, PCA-based variable reduction, DAG construction, and SEM path analysis. All sludges reached high final dry matter contents above 95% and particle size below 2,378.41 µm. The non-stabilized KA-4 sludge, with the highest initial organic content (LOI = 75.0–76.3%), showed the strongest tack response (SW = 18.06 mJ), the highest average torque during processing (44.0 Nm), and the largest final particle size (2,254.55 µm), suggesting enhanced agglomeration. Correlation and PCA indicated that particle size and organic content correlate well (r_s = 0.72, p < 0.001), consistent with a potential contribution of organic matter to agglomeration. Despite poor global model fit, exploratory SEM paths were consistent with plausible roles of POF in final particle-size evolution (β = 0.706, p < 0.001) and of initial dry matter content in final drying performance (β = 0.796, p < 0.001). The proposed exploratory statistical framework provides insights into the mechanisms governing PSS formation, but current findings are hypothesis-generating and intended to guide future confirmatory studies.
-
-
 ## Browse the code
 
-The complete R source code is available in the [GitHub repository](https://github.com/USERNAME/REPOSITORY).
+The complete R source code is available in the [GitHub repository](https://github.com/nelsonquesado/sludge-analysis/).
 
 ## Overview
 
